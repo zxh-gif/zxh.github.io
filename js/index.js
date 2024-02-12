@@ -5,7 +5,8 @@ img.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUgAAAEwCAYAAADVZeifAAA
 // 樱花数量 (添加)
 var sakuraNum = 10000;
 // 樱花越界限制次数, -1不做限制,无限循环 (添加)
-var limitTimes = 2;
+// var limitTimes = 2;
+ var limitTimes = -1;
  
 // 定义限制数组 (添加)
 var limitArray = new Array(sakuraNum);
